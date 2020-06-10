@@ -1,7 +1,7 @@
 package TodoApp;
 
 public class AddTask extends Tasks {
-    protected String sentence;
+    protected String sentence = "";
     public void addTask(){
         listOfThings.add(sentence);
     }
